@@ -10,8 +10,8 @@
       </div>
 
     <form>
-      <input type="email" name="login" placeholder="Adres e-mail">
-      <input type="password" name="login" placeholder="Hasło">
+      <input type="email" name="email" placeholder="Adres e-mail">
+      <input type="password" name="password" placeholder="Hasło">
       <input type="submit" value="Zaloguj się">
     </form>
 

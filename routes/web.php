@@ -22,3 +22,6 @@ Route::view('login', 'login');
 Route::view('register', 'register');
 
 Route::view('forget', 'forget');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
