@@ -59,6 +59,7 @@
                             <div class="col-md-6 offset-md-3">
                                 <button type="submit" class="btn btn-color px-5 mb-5 w-100">
                                     {{ __('Zaloguj') }}
+                                    <a href="/full-calender"></a>
                                 </button>
 
                                 @if (Route::has('password.request'))

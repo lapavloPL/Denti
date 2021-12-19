@@ -1,0 +1,16 @@
+
+/* classes attached to <body> */
+.heading {
+    background-color: #ecf5f6;
+    width: auto;
+}
+.logo img{
+    background-color: #ecf5f6;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.body {
+    background-color: #ecf5f6;
+    max-height: 900px;
+    max-width: 1320px;
+}

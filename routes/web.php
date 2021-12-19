@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\FullCalenderController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,11 +19,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('full-calender', [FullCalenderController::class, 'index']);
+
+Route::post('full-calender/action', [FullCalenderController::class, 'action']);
+
 Route::view('login', 'login');
 
 Route::view('register', 'register');
 
 Route::view('forget', 'forget');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
